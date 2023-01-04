@@ -78,7 +78,7 @@ return item;
       <img src="logo.svg"alt='image here'/>
       <h2>To Do List</h2>
 <Text value={input} onInput={(e) =>setInput(e.target.value)}/>
-<Button onClick={() => handleClick()}>Add</Button>
+<Button onClick={() => handleClick()}>Add</Button>    
 <Tasks>
           <TaskCount>
             <b>Pending Tasks </b> 
